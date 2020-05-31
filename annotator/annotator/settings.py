@@ -77,10 +77,6 @@ WSGI_APPLICATION = 'annotator.wsgi.application'
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:8080'
-]
-
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
